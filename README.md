@@ -3,7 +3,7 @@ repo for lab 7 and 8 for software securty
 Project - Wordpress vs. Kali
 
  These are the exploits i did
-
+EDIT(GIF)
 1. XSS in Update-page,  add script to the php of our plugin,  able to exploit an XSS vulnerability within the update page of the plgugin tab.
 
 Steps:
@@ -14,7 +14,7 @@ Fixed Version: 4.7.1
 
 
 
-
+PLUG(GIF)
 2 - cross site scripting  vulnerability in Page's Edit-page
 
 a) So add a script to the title of a page, we can exploit an XSS vulnerability. This script does not show up on the published blog page, but still triggers the alert.
@@ -26,7 +26,7 @@ Navigate to All Pages,Select a page to edit,Add some script to the end of page t
 Fixed Version: 4.7.1
 
 
-
+POST(GIF)
 3 - cross site script vulnerability in Post's Edit-page, by adding a script to the end of a post title, we are able to trigger that script as soon as we load the main page of the application.
 
 Steps:
